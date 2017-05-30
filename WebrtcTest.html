@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html class="no-js" lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=1920">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <title></title>
+   <script>
+        //end call
+        var check_end = 0;
+        function resizeIframe(obj) {
+            check_end++;
+            if (check_end > 1) {               
+                check_end = 0;
+                window.location.reload();
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="static/css/normalize.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href="static/css/transition.css">
+    <link rel="stylesheet" href="static/js/vendor/jquery.booklet.latest.css"/>
+    <script src="static/js/vendor/modernizr-2.8.3.min.js"></script>
+
+</head>
+<body>
+    <div id="l-wrap" class="l-wrap"></div>
+
+    <!-- S : 공지사항 -->
+    <section id="l-notice" class="l-notice"><div class="l-notice_box"><p class="l-notice_param"></p></div></section>
+    <!-- E : 공지사항 -->
+
+    <!--  S : 웰컴메시지 -->
+    <section id="l-welcome" class="l-welcome">
+        <p class="l-welcome_txt"></p>
+        <button class="l-welcome_btn">&times;</button>
+    </section>
+    <!--  E : 웰컴메시지 -->
+
+	<!-- CALL -->
+	<div class="layer-call">
+		<div class="inner">
+			<div class="page-inside">
+				<div class="page-inside_half">
+					<div><img class="item-img" src="asset/newtechnology/image/FaceShop/1.png" alt=""/></div>
+				</div>
+				
+				<div class="page-inside_half">
+				
+					<div class="call-view-area">
+						<button class="call-icon-view"></button>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<button type="button" class="btn-close">X</button>
+	</div>
+
+	<!-- // CALL -->
+	
+    <!-- S : 로딩스피너 -->
+    <div id="loading" class="loading"><div class="loading-spin"><span></span><span></span></div></div>
+    <!-- E: 로딩스피너 -->
+
+<script data-main="static/js/main-min" src="static/js/vendor/require.min.js"></script>
+</body>
+</html>

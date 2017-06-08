@@ -106,7 +106,7 @@ define(['jquery','lodash','utilTemplate','uiActivePage', 'uiScreenSaver' ,'uiNot
 				var roomunmber = Math.floor(Math.random() * 100000) + 1;
 				console.log(roomunmber);
 				$(".layer-call").show();
-	$(".layer-call").append("<iframe class='callview' onload='resizeIframe(this)' src='https://192.168.10.110:8543/demos/Video-Conferencing_0408.html?roomid=구로'></iframe>");
+	$(".layer-call").append("<iframe class='callview' onload='resizeIframe(this)' src='https://192.168.10.110:8543/web/index.html?roomid=구로'></iframe>");
 				//$(".layer-call").append("<div class='txtcall'>연결 중 입니다...</div>");
 			
 
